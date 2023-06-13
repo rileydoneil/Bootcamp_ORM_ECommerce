@@ -2,6 +2,8 @@
 
 ## Description
 
+The backend ecommerce app is designed to efficiently manage product data and enhance the overall shopping experience. It utilizes robust models such as Products, ProductTags, Tags, and Categories to organize and classify products. This allows seamless categorization, tagging, and retrieval of products, enabling users to easily search for specific items based on their desired tags, categories, and product information.
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -16,6 +18,10 @@ Create a file called `.env` in the root directory and fill in the following vari
 - `DB_PASSWORD=[your mysql password]`
 - `DB_NAME=[the name of the database]`
 - `PORT=[the port you want to use for the server]`
+
+(Optional) if npm is installed, run `npm run seed` to seed the database. 
+
+if npm is installed, run `npm i` to quicklty download all appropriate packages.
 
 ## Usage
 
